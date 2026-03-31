@@ -22,9 +22,12 @@ I also use Supabase for auth and storage.
 
 ### Still200 - still in progress
 
-An uptime API monitoring platform for indie devs built around async Python workers and Redis.
-I chose to go the no-framework route and get my hands dirty with a custom scheduler
-based on redis sorted sets, list queues for notifications and PubSub for real-time fan-out.
+An uptime API monitoring platform for indie devs built around async
+Python workers and Redis.
+I chose to go the no-framework route and get my hands dirty with a
+custom scheduler
+based on redis sorted sets, list queues for notifications and PubSub
+for real-time fan-out.
 
 Some of the internals are/will be open source:
 
@@ -35,12 +38,13 @@ get your API working with the monitor.
 
 📐 [Architecture Overview →](https://github.com/dennis-nw/dennis-nw)
 
-
 ### 📱 iOS Apps
 
 A collection of additional apps I've built and shipped to the App Store:
-- **[Filmster](https://apps.apple.com/us/app/filmster/id6502289556)** - 
+
+- **[Filmster](https://apps.apple.com/us/app/filmster/id6502289556)** -
 an entertainment companion.
+
 - **[Torqy](https://apps.apple.com/us/app/torqy/id6475610114)** -
 a car maintenance tracker.
 
