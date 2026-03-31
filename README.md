@@ -1,16 +1,38 @@
-## Hi there 👋
+# Hi there 👋🏽, I'm Dennis!
 
-<!--
-**dennis-nw/dennis-nw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a software engineer based in Nairobi, Kenya. I focus on building reliable, AI-powered backend systems and mobile products. 
 
-Here are some ideas to get you started:
+I work primarily with **Python (FastAPI)**, **Swift**, **SwiftUI**, **PostgreSQL** and **Redis**.
+I care a lot about keeping infrastructure simple, transparent and close to the metal.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I currently work at **[Seismic](https://www.seismic.com/)** as a backend engineer.
+
+## 🚀 Projects
+
+### Illumity
+
+An AI-powered image generation iOS app built with Swift and SwiftUI for the frontend, Python (FastAPI) backend. It uses a credit-based system with StoreKit 2. I also use Supabase for auth and storage.
+
+📐 [Architecture Overview →](https://github.com/dennis-nw/dennis-nw)
+
+### Still200 - still in progress
+
+An uptime API monitoring platform for indie devs built around async Python workers and Redis. I chose to go the no-framework route and get my hands dirty with a custom scheduler based on sorted sets, list queues for notifications and PubSub for real-time fan-out.
+
+Some of the internals are/will be open source:
+
+- **[API contract]** - API specification and contract guidelines to get your API working with the monitor.
+- **Agent** - this will be a light-weight system metrics (CPU, disk) collector.
+
+📐 [Architecture Overview →](https://github.com/dennis-nw/dennis-nw)
+
+### 📱 iOS Apps
+
+A collection of additional apps I've built and shipped to the App Store:
+- **[Filmster]()** - an entertainment companion.
+- **[Torqy]()** - a car maintenance tracker.
+
+### 📬 Contact
+
+- [Email](mailto:dennis@byteslab.io)
+- [LinkedIn](https://www.linkedin.com/in/dennis-wainaina-359ab388/)
