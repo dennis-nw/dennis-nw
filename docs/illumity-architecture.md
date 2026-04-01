@@ -55,9 +55,11 @@ graph TB
 ## Key Components
 
 ### iOS App
+
 The app is built in Swift and SwiftUI following an MVVM pattern.
 
-### Auth — Google and Apple Sign-In via Supabase Auth. 
+### Auth — Google and Apple Sign-In via Supabase Auth
+
 Tokens are stored securely using a KeychainManager wrapper around
 the iOS Keychain.
 Image Generation — users enter a prompt, select model options, and submit.
@@ -68,9 +70,8 @@ via LocalAuthentication, with full Apple ID token revocation
 using ASAuthorizationAppleIDProvider.
 
 ### Backend
-A Python FastAPI server deployed on Railway.
-Responsibilities
 
+A Python FastAPI server deployed on Railway.
 Authenticate and authorize requests via Supabase Auth token verification.
 Manage user credit balances — deduct on generation, add on confirmed purchase.
 Proxy generation requests to Replicate's API, running FLUX models
