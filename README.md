@@ -21,7 +21,8 @@ An AI-powered image generation iOS app built with Swift and SwiftUI for the fron
 Python (FastAPI) backend. It uses a credit-based system with StoreKit 2.
 Supabase is used for auth and storage.
 
-📐 [Architecture Overview →](https://github.com/dennis-nw/dennis-nw)
+📐 [Architecture Overview →](docs/illumity-architecture.md)
+
 📱 [Download for iPhone](https://apps.apple.com/us/app/illumity/id6759741620)
 
 ### Still200 - coming soon
@@ -34,11 +35,12 @@ for notifications and PubSub for real-time fan-out.
 
 Some of the internals are/will be open source:
 
-- **[API contract]** - Standardizing monitor-to-API communication.
+- **[API contract](https://github.com/dennis-nw/still200-integration-guide)** -
+Standardizing monitor-to-API communication.
 
 - **Agent** - this will be a light-weight system metrics (CPU, disk) collector.
 
-📐 [Architecture Overview →](docs/illumity-architecture.md)
+📐 [Architecture Overview →](docs/still200-architecture.md)
 
 ### 📱 iOS Apps
 

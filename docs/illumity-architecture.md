@@ -43,7 +43,7 @@ graph TB
 
     API -->|Verify tokens| SB_Auth
     API -->|Store user data, credits, generations| SB_DB
-    API -->|Cache sessions, rate limits & signed URLs| Redis
+    API -->|Rate limits & signed URLs| Redis
     API -->|Upload generated images| SB_Storage
     API -->|Submit generation jobs| Replicate
     Replicate -->|Run inference| FLUX
@@ -81,7 +81,7 @@ Cache active sessions and enforce rate limits via Redis.
 
 ### Data Layer
 
-PostgreSQL (hosted by Supabase) — users, credit transactions, generation history.
+PostgreSQL (hosted on Supabase) — users, credit transactions, generation history.
 Redis — session caching, rate limiting, signed URL caching
 (TTL of one week to avoid regenerating URLs on every gallery view),
 and pipeline batching for bulk reads.
