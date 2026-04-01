@@ -29,9 +29,8 @@ Supabase is used for auth and storage.
 An uptime API monitoring platform for indie devs who hate bloat.
 Built around async Python workers and Redis.
 I chose to go the no-framework route and get my hands dirty with a
-custom scheduler
-based on redis sorted sets, list queues for notifications and PubSub
-for real-time fan-out.
+custom scheduler based on redis sorted sets, list queues
+for notifications and PubSub for real-time fan-out.
 
 Some of the internals are/will be open source:
 
@@ -39,7 +38,7 @@ Some of the internals are/will be open source:
 
 - **Agent** - this will be a light-weight system metrics (CPU, disk) collector.
 
-📐 [Architecture Overview →](https://github.com/dennis-nw/dennis-nw)
+📐 [Architecture Overview →](docs/illumity-architecture.md)
 
 ### 📱 iOS Apps
 
