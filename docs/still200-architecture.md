@@ -55,7 +55,9 @@ graph TB
 ```
 
 ## Services
+
 ### API Service
+
 The entry point for users. Handles CRUD for monitors,
 retrieves incident history, and streams real-time updates to the
 dashboard via Server-Sent Events (SSE).
