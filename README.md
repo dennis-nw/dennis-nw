@@ -52,6 +52,14 @@ an entertainment companion.
 - **[Torqy](https://apps.apple.com/us/app/torqy/id6475610114)** -
 a car maintenance tracker.
 
+### Let's Build Something Great 👷🏾‍♂️
+
+I’m always open to collaborating on high-stakes projects—
+whether it’s architecting a high-performance backend,
+designing a scalable REST API, or crafting a fluid iOS experience.
+If you have an idea that requires a focus on reliability and performance,
+let's talk. Feel free to reach out.
+
 ### 📬 Let's Connect
 
 - [Email](mailto:dennis@byteslab.io)
