@@ -9,6 +9,8 @@ I currently work at **[Seismic](https://www.seismic.com/)** as a senior backend 
 
 ---
 
+## My Tech Stack
+
 ### Languages
 
 ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -66,24 +68,30 @@ I opted for a no-framework route to implement:
 * **Incident Delivery:** Utilizing NATS for high-reliability notification streaming.
 
 Some of the internals are (or will soon be) open source:
-- **[API Contract](https://dennis-nw.github.io/still200-integration-guide/)** – Standardizing monitor-to-API communication.
-- **Agent** – A lightweight system metrics (CPU, memory, disk) collector.
+* **[API Contract](https://dennis-nw.github.io/still200-integration-guide/)** –
+  Standardizing monitor-to-API communication.
+* **Agent** – A lightweight system metrics (CPU, memory, disk) collector.
 
 📐 [Architecture Deep Dive →](docs/still200-architecture.md)
 
 ### [Illumity](https://apps.apple.com/us/app/illumity/id6759741620)
 
 An AI-powered image generation iOS application.
-Features a native SwiftUI frontend paired with a high-concurrency FastAPI backend. 
-- **Monetization:** Implements a credit-based system using native StoreKit 2.
-- **Backend Infrastructure:** Powered by Supabase for authentication and object storage.
+Features a native SwiftUI frontend paired with a high-concurrency
+FastAPI backend. 
+* **Monetization:** Implements a credit-based system using native StoreKit 2.
+* **Backend Infrastructure:** Powered by Supabase for authentication and
+  object storage.
 
 📐 [Architecture Deep Dive →](docs/illumity-architecture.md) | 📱 [Download on the App Store](https://apps.apple.com/us/app/illumity/id6759741620)
 
 ### 📱 More iOS Apps
+
 Additional production applications shipped to the App Store:
-- **[Filmster](https://apps.apple.com/us/app/filmster/id6502289556)** – A minimalist entertainment companion.
-- **[Torqy](https://apps.apple.com/us/app/torqy/id6475610114)** – A clean, utility-first vehicle maintenance tracker.
+* **[Filmster](https://apps.apple.com/us/app/filmster/id6502289556)** –
+  An entertainment companion.
+* **[Torqy](https://apps.apple.com/us/app/torqy/id6475610114)** –
+  A clean, utility-first vehicle maintenance tracker.
 
 ---
 
@@ -96,5 +104,5 @@ requires a focus on reliability and performance, let's talk.
 
 ### 📬 Let's Connect
 
-- **Email:** [dennis@byteslab.io](mailto:dennis@byteslab.io)
-- **LinkedIn:** [Dennis Wainaina](https://www.linkedin.com/in/dennis-wainaina-359ab388/)
+* **Email:** [dennis@byteslab.io](mailto:dennis@byteslab.io)
+* **LinkedIn:** [Dennis Wainaina](https://www.linkedin.com/in/dennis-wainaina-359ab388/)
