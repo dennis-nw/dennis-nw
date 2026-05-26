@@ -63,6 +63,7 @@ iOS apps and getting them to the App Store.
 An uptime API monitoring platform built for indie devs who hate bloat.
 Built around async Python workers and Redis,
 I opted for a no-framework route to implement:
+
 * **Custom Scheduling:** Built entirely on Redis sorted sets.
 * **Real-Time Updates:** Leveraging Redis PubSub for instant UI fan-out.
 * **Incident Delivery:** Utilizing NATS for high-reliability notification streaming.
