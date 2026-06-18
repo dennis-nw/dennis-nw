@@ -68,7 +68,7 @@ Built around async Python workers, Redis and NATS, I implemented:
 * **Incident Notification Delivery:**
   Utilizing NATS for high-reliability notification streaming.
 
-* **[Integration Guide](https://dennis-nw.github.io/still200-integration-guide/)**
+[Integration Guide](https://dennis-nw.github.io/still200-integration-guide/)
 
 📐 [Architecture Deep Dive →](https://blog.byteslab.io/posts/still200-system-architecture/)
 |
