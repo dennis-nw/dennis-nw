@@ -65,10 +65,10 @@ Built around async Python workers, Redis and NATS, I implemented:
 
 * **Custom Scheduling:** Built entirely on Redis sorted sets.
 * **Real-Time Updates:** Leveraging Redis PubSub for instant UI fan-out.
-* **Incident Notification Delivery:** Utilizing NATS for high-reliability notification streaming.
+* **Incident Notification Delivery:**
+  Utilizing NATS for high-reliability notification streaming.
 
-* **[Integration Guide](https://dennis-nw.github.io/still200-integration-guide/)** –
-  Standardizing monitor-to-API communication.
+* **[Integration Guide](https://dennis-nw.github.io/still200-integration-guide/)**
 
 📐 [Architecture Deep Dive →](https://blog.byteslab.io/posts/still200-system-architecture/)
 |
