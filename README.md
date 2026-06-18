@@ -61,20 +61,18 @@ iOS apps and getting them to the App Store.
 ### [Still200](https://still200.com)
 
 An uptime API monitoring platform built for indie devs who hate bloat.
-Built around async Python workers and Redis,
-I opted for a no-framework route to implement:
+Built around async Python workers, Redis and NATS, I implemented:
 
 * **Custom Scheduling:** Built entirely on Redis sorted sets.
 * **Real-Time Updates:** Leveraging Redis PubSub for instant UI fan-out.
-* **Incident Delivery:** Utilizing NATS for high-reliability notification streaming.
+* **Incident Notification Delivery:**
+  Utilizing NATS for high-reliability notification streaming.
 
-Some of the internals are (or will soon be) open source:
+* **[Integration Guide](https://dennis-nw.github.io/still200-integration-guide/)**
 
-* **[API Contract](https://dennis-nw.github.io/still200-integration-guide/)** –
-  Standardizing monitor-to-API communication.
-* **Agent** – A lightweight system metrics (CPU, memory, disk) collector.
-
-📐 [Architecture Deep Dive →](docs/still200-architecture.md)
+📐 [Architecture Deep Dive →](https://blog.byteslab.io/posts/still200-system-architecture/)
+|
+📱 [Download on the App Store](https://apps.apple.com/us/app/still200/id6770858177)
 
 ### [Illumity](https://apps.apple.com/us/app/illumity/id6759741620)
 
@@ -94,9 +92,9 @@ FastAPI backend.
 Additional production applications shipped to the App Store:
 
 * **[Filmster](https://apps.apple.com/us/app/filmster/id6502289556)** –
-  An entertainment companion.
+  An entertainment companion to help you discover interesting movies and shows.
 * **[Torqy](https://apps.apple.com/us/app/torqy/id6475610114)** –
-  A clean, utility-first vehicle maintenance tracker.
+  A vehicle maintenance tracker.
 
 ---
 
