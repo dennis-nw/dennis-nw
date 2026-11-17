@@ -1,111 +1,123 @@
-# Hi there 👋🏽, I'm Dennis
+# Hey, I'm Dennis 👋🏽
 
-I'm a software engineer based in Nairobi, Kenya 🇰🇪.
-I focus on building reliable, AI-powered backend systems and
-mobile products with a philosophy centered on simple,
-transparent, and high-performance infrastructure.
+**Software Engineer · Founder of [Bytes Lab](https://byteslab.io) · Building [Still200](https://still200.com)**
 
-I currently work at **[Seismic](https://www.seismic.com/)** as a senior backend engineer.
+I'm a software engineer based in Nairobi, Kenya 🇰🇪, with 8+ years of experience building backend systems, APIs, and production software.
 
----
+I specialize in **Python, distributed systems, backend infrastructure, and applied AI**, with a particular interest in designing systems that are reliable, observable, and simple to operate.
 
-## My Tech Stack
+I also build and ship my own products — from the first line of code to production infrastructure, billing, monitoring, and everything in between.
 
-### Languages
-
-![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Swift](https://img.shields.io/badge/swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
-![SQL](https://img.shields.io/badge/sql-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### Backend & APIs
-
-![FastAPI](https://img.shields.io/badge/fastapi-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### Mobile & Apple
-
-![SwiftUI](https://img.shields.io/badge/swiftui-0070C9?style=for-the-badge&logo=swift&logoColor=white)
-![iOS](https://img.shields.io/badge/ios-000000?style=for-the-badge&logo=apple&logoColor=white)
-![Xcode](https://img.shields.io/badge/xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
-
-### Infrastructure & Cloud
-
-![AWS](https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Supabase](https://img.shields.io/badge/supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Railway](https://img.shields.io/badge/railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### AI & Data
-
-![Claude](https://img.shields.io/badge/claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
-![Snowflake](https://img.shields.io/badge/snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-
-### Tooling
-
-![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/sqlalchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+I believe great software comes from thoughtful engineering, sensible trade-offs, and knowing when *not* to add complexity.
 
 ---
 
-## 🚀 Projects
+## 🚀 What I'm Building
 
-I run [Bytes Lab](https://byteslab.io), an indie studio where I design, build,
-and ship software products. It's where I do my most technically
-ambitious work — from architecting multi-service backends to crafting
-iOS apps and getting them to the App Store.
+### 🟢 [Still200](https://still200.com) — Reliability monitoring for developers
 
-### [Still200](https://still200.com)
+**Keep shipping. We'll keep watch.**
 
-An uptime API monitoring platform built for indie devs who hate bloat.
-Built around async Python workers, Redis and NATS, I implemented:
+Still200 helps developers and small teams catch API downtime, missed cron jobs, and silent background task failures before their users do.
 
-* **Custom Scheduling:** Built entirely on Redis sorted sets.
-* **Real-Time Updates:** Leveraging Redis PubSub for instant UI fan-out.
-* **Incident Notification Delivery:**
-  Utilizing NATS for high-reliability notification streaming.
+I designed, built, and operate the platform end to end, including its distributed monitoring infrastructure, web application, public status pages, notification delivery, and iOS companion app.
 
-[Integration Guide](https://dennis-nw.github.io/still200-integration-guide/)
+**Engineering highlights:**
 
-📐 [Architecture Deep Dive →](https://blog.byteslab.io/posts/still200-system-architecture/)
-|
-📱 [Download on the App Store](https://apps.apple.com/us/app/still200/id6770858177)
+- **Distributed monitoring:** Asynchronous Python workers performing HTTP health checks, latency measurements, and incident detection.
+- **Custom scheduling:** Redis sorted sets and Lua scripts powering efficient, concurrent monitor scheduling.
+- **Event-driven architecture:** NATS JetStream for reliable event processing and notification delivery.
+- **Cron monitoring:** Heartbeat-based tracking of scheduled jobs, including start, completion, failure, and missed execution detection.
+- **Webhooks:** Event delivery with persisted delivery records, retries, and PostgreSQL-backed background processing.
+- **Public status pages:** Customer-facing service health dashboards with configurable monitored components.
+- **Developer SDK:** Published `still200-sdk`, a Python package supporting synchronous and asynchronous cron monitoring through decorators.
+- **Full-stack ownership:** API design, database architecture, infrastructure, billing, frontend, documentation, and mobile development.
+
+**Stack:** Python · FastAPI · PostgreSQL · Redis · NATS JetStream · React · TypeScript · SwiftUI · Docker
+
+🌐 [Website](https://still200.com) · 📚 [Documentation](https://docs.still200.com) · 📦 [Python SDK](https://pypi.org/project/still200-sdk/) · 📐 [Architecture Deep Dive](https://blog.byteslab.io/posts/still200-system-architecture/) · 📱 [iOS App](https://apps.apple.com/us/app/still200/id6770858177)
+
+### ✉️ [KindlyNote](https://kindlynote.app) — Thoughtful messages, powered by AI
+
+**Every sentiment. Beautifully delivered.**
+
+An AI-powered application that helps people express appreciation, apologies, complaints, and everything in between, with personality and carefully chosen tone.
+
+Built and launched as an independent product, with a focus on simplicity, user experience, and lean production infrastructure.
+
+**Engineering highlights:**
+
+- **Applied AI:** Structured AI generation using OpenAI and Pydantic AI.
+- **Lightweight frontend:** Server-rendered interfaces built with Jinja2 and HTMX.
+- **Background processing:** PostgreSQL-backed job queue using `SKIP LOCKED`, retries, and worker polling.
+- **Abuse prevention:** Rate limiting, recipient protections, and Cloudflare Turnstile.
+- **Production observability:** Health checks and monitoring for database connectivity, AI generation, and email delivery.
+- **End-to-end delivery:** Product design, backend development, deployment, and production operations.
+
+**Stack:** Python · FastAPI · Pydantic AI · PostgreSQL · HTMX · Jinja2 · Supabase · Railway
+
+🌐 [Try KindlyNote](https://kindlynote.app)
+
+---
+
+## 📱 Other Products I've Shipped
 
 ### [Illumity](https://apps.apple.com/us/app/illumity/id6759741620)
+An AI-powered image generation app for iOS, combining a native SwiftUI experience with a high-concurrency FastAPI backend.
 
-An AI-powered image generation iOS application.
-Features a native SwiftUI frontend paired with a high-concurrency
-FastAPI backend.
+Built with StoreKit 2 for credit-based purchases and Supabase for authentication and storage.
 
-* **Monetization:** Implements a credit-based system using native StoreKit 2.
-* **Backend Infrastructure:** Powered by Supabase for authentication and
-  object storage.
+📐 [Architecture Deep Dive](docs/illumity-architecture.md) · 📱 [App Store](https://apps.apple.com/us/app/illumity/id6759741620)
 
-📐 [Architecture Deep Dive →](docs/illumity-architecture.md) |
-📱 [Download on the App Store](https://apps.apple.com/us/app/illumity/id6759741620)
+### [Filmster](https://apps.apple.com/us/app/filmster/id6502289556)
+A native iOS entertainment companion for discovering movies and TV shows.
 
-### 📱 More iOS Apps
-
-Additional production applications shipped to the App Store:
-
-* **[Filmster](https://apps.apple.com/us/app/filmster/id6502289556)** –
-  An entertainment companion to help you discover interesting movies and shows.
-* **[Torqy](https://apps.apple.com/us/app/torqy/id6475610114)** –
-  A vehicle maintenance tracker.
+### [Torqy](https://apps.apple.com/us/app/torqy/id6475610114)
+An iOS vehicle maintenance tracker designed to make car ownership easier to manage.
 
 ---
 
-### Let's Build Something Great 👷🏾‍♂️
+## 🛠️ Technologies I Work With
 
-I’m always open to collaborating on high-stakes projects—whether it’s
-architecting a high-performance backend, designing a scalable REST API,
-or crafting a fluid iOS experience. If you have an idea that
-requires a focus on reliability and performance, let's talk.
+**Languages**
 
-### 📬 Let's Connect
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-* **Email:** [dennis@byteslab.io](mailto:dennis@byteslab.io)
-* **LinkedIn:** [Dennis Wainaina](https://www.linkedin.com/in/dennis-wainaina-359ab388/)
+**Backend & Distributed Systems**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white) ![NATS](https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=natsdotio&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+
+**AI, Web & Mobile**
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white) ![HTMX](https://img.shields.io/badge/HTMX-3366CC?style=flat-square&logo=htmx&logoColor=white) ![SwiftUI](https://img.shields.io/badge/SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white)
+
+**Cloud & Infrastructure**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+---
+
+## ✍🏽 Engineering Notes
+
+I write about the systems I build, the decisions behind them, and what I learn from running software in production.
+
+A few technical deep dives:
+
+- [Still200: System Architecture](https://blog.byteslab.io/posts/still200-system-architecture/) — Building a distributed monitoring platform.
+- [Monitoring with Still200](https://blog.byteslab.io/posts/monitoring-with-still200/) — Instrumenting a real application and monitoring its health.
+
+More writing at **[blog.byteslab.io](https://blog.byteslab.io)**.
+
+---
+
+## 🤝 Let's Build Something
+
+I'm interested in **backend engineering, distributed systems, applied AI, developer infrastructure, and technically ambitious products**.
+
+I'm open to remote engineering roles, consulting engagements, and collaborations with teams building meaningful software.
+
+Whether you need someone to design a reliable backend, take ownership of a complex system, or turn an ambitious idea into a working product, I'd love to connect.
+
+📬 **[Email](mailto:dennis@byteslab.io)** · **[LinkedIn](https://www.linkedin.com/in/dennis-wainaina-359ab388/)** · **[Bytes Lab](https://byteslab.io)**
+
+*Build thoughtfully. Ship consistently. Keep things simple.*
